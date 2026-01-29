@@ -193,7 +193,7 @@ heat-equation-simulator/
 ├── sdl_app.hpp/cpp               # Application controller
 ├── main.cpp                      # Entry point & menu
 ├── Doxyfile                      # Documentation config
-├── UML_diagram.puml              # Class diagram source
+├── uml_diagram.plantuml          # Class diagram source
 ├── rapport_PAP.pdf               # Report detail about the project
 └── README.md                     # This file
 ```
