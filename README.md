@@ -89,6 +89,7 @@ $$u_{n-1} = d'_{n-1}, \quad u_i = d'_i - c'_i u_{i+1}$$
 
 ### 2D Case: 5-Point Stencil + Gauss-Seidel Iteration
 **Mathematical preliminaries**
+
 $$\frac{\partial u}{\partial t} = \alpha \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} \right) + \frac{F}{\rho c}$$
 
 #### Discretized Form
@@ -203,8 +204,8 @@ heat-equation-simulator/
 # Generate Doxygen documentation
 doxygen Doxyfile
 
-# View in browser
-xdg-open doc/html/index.html  # Linux
+# View documentation in browser
+xdg-open doc/html/index.html   # Linux
 open doc/html/index.html       # macOS
 ```
 
@@ -225,17 +226,3 @@ open doc/html/index.html       # macOS
 ### Libraries
 - [SDL2 - Simple DirectMedia Layer](https://www.libsdl.org/)
 - [Doxygen - Documentation Generator](https://www.doxygen.nl/)
-
-## Authors
-
-**RA Veasna** & **DIN Sokheng**  
-*École Nationale Supérieure d'Informatique pour l'Industrie et l'Entreprise (ENSIIE)*  
-Master 1 - Advanced Programming Project (PAP)
-
-**Instructor:** M. TORRI Vincent
-
-**Date:** January 2026
-
----
-
-*This project was developed as part of the Advanced Programming course at ENSIIE, demonstrating mastery of numerical methods, algorithm optimization, and software engineering principles.*
