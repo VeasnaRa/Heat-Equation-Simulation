@@ -53,7 +53,7 @@ Where:
 **Mathematical preliminaries**
 
 $$\frac{\partial u}{\partial t} = \frac{\lambda}{\rho c}\frac{\partial^2 u}{\partial x^2} + \frac{F}{\rho c}$$
- 
+
 #### Discretization
 
 **Temporal discretization:**
@@ -76,6 +76,8 @@ where **r = α·Δt/Δx²** is the diffusion number.
 #### Thomas Algorithm (TDMA)
 
 Solves tridiagonal systems in **O(n)** complexity:
+
+For a tridiagonal system of form:    $$a_i u_{i-1} + b_i u_i + c_i u_{i+1} = d_i$$
 
 **Forward sweep:**
 
@@ -192,6 +194,7 @@ heat-equation-simulator/
 ├── main.cpp                      # Entry point & menu
 ├── Doxyfile                      # Documentation config
 ├── UML_diagram.puml              # Class diagram source
+├── rapport_PAP.pdf               # Report detail about the project
 └── README.md                     # This file
 ```
 
